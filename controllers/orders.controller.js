@@ -1,4 +1,5 @@
 //CREATE ONE ORDER - POST
+// J'ai pu lire sur MDN que pour le create il était bon d'indiquer un statut 201
 export const createOneOrder = (req, res, next) => {
     res.status(201).json(
         { 
